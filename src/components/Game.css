@@ -1,0 +1,16 @@
+.game {
+    max-width: 860px;
+    margin: auto;
+    padding:  10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card-grid {
+    margin-top: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 different columns in grid */
+    grid-gap: 20px;
+}
